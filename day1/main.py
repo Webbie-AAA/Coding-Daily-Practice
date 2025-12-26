@@ -9,7 +9,7 @@ No name returns None, e.g. "".
 After completing the tests, write a function that ensures your tests pass."""
 
 
-def capitalize_name(name):
+def capitalize_name(name: str):
     if name == "":
         return None
     return name.title()
